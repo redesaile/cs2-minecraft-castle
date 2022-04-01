@@ -2,6 +2,7 @@
 *.ini
 
 # Directories
+graphics/
 releases/
 
 # SDK Stuff
