@@ -1,2 +1,9 @@
-*.agdai
-MAlonzo/**
+# Windows Explorer
+*.ini
+
+# Directories
+releases/
+
+# SDK Stuff
+sdk_content/maps/*.bsp
+sdk_content/maps/*.log
