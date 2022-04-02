@@ -4,7 +4,7 @@
 **Weapon:** Any available for purchase
 <br>**Maximum players:** 64 (32 per team)
 
-**Steam Workshop:** None
+**Steam Workshop:** https://steamcommunity.com/sharedfiles/filedetails/?id=2788233205
 
 ## Where to get resources?
 Porting Minecraft assets to cs:go is currently local, so they can only be obtained by decompiling the release version of the map via bspsrc.
