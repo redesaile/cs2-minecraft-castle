@@ -1,7 +1,0 @@
-"aim_minecraft_castle_build2"
-{
-	"material"	"overviews/aim_minecraft_castle_build2"
-	"pos_x"		"-908.000000"
-	"pos_y"		"908.000000"
-	"scale"		"1.770000"
-}

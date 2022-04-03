@@ -1,0 +1,7 @@
+"aim_minecraft_castle_build3"
+{
+	"material"	"overviews/aim_minecraft_castle_build3"
+	"pos_x"		"-908.000000"
+	"pos_y"		"908.000000"
+	"scale"		"1.770000"
+}
