@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "40"
+	"nGridSpacing" "5"
 }
 palette_plus
 {
@@ -73,7 +73,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1256,7 +1256,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "80 -1.74846e-06 245"
+	"origin" "80 0 245"
 	editor
 	{
 		"color" "220 30 220"
@@ -1271,7 +1271,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "-80 0 245"
+	"origin" "-80 1.74846e-06 245"
 	editor
 	{
 		"color" "220 30 220"
@@ -1286,7 +1286,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-480 -520 160"
+	"origin" "-480 -520 165"
 	editor
 	{
 		"color" "220 30 220"
@@ -1301,7 +1301,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "480 -520 160"
+	"origin" "480 -520 165"
 	editor
 	{
 		"color" "220 30 220"
@@ -1316,7 +1316,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 180 0"
 	"enabled" "1"
-	"origin" "480 520 160"
+	"origin" "480 520 165"
 	editor
 	{
 		"color" "220 30 220"
@@ -1331,7 +1331,7 @@ entity
 	"classname" "info_deathmatch_spawn"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "-480 520 160"
+	"origin" "-480 520 165"
 	editor
 	{
 		"color" "220 30 220"
