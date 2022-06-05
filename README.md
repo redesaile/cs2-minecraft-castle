@@ -1,4 +1,4 @@
-# Minecraft Castle
+# Minecraft Castle `AIM`
 **Game Mode:** AIM, Classic, Deathmatch, Custom, Training
 
 **Weapon:** Any available for purchase
