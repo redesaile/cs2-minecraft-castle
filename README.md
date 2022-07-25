@@ -1,5 +1,5 @@
-# Minecraft Castle `Aim`
-**Game Mode:** Aim, Classic, Deathmatch, Custom, Training
+# Minecraft Castle `AIM`
+**Game Mode:** AIM, Classic, Deathmatch, Custom, Training
 
 **Weapon:** Any available for purchase
 <br>**Maximum players:** 64 (32 per team)
