@@ -7,7 +7,7 @@
 ## Get resources
 [`Developer Content`](https://github.com/Redesaile/csgo-developer), `Minecraft Resources (currently unavailable)`
 
-> Porting Minecraft assets to cs:go is currently local, so they can only be obtained by decompiling the release version of the map via **bspsrc**.
+> Porting Minecraft assets to cs:go is currently private, so they can only be obtained by decompiling the release version of the map via **bspsrc**.
 
 ## Gallery
 ![01](https://user-images.githubusercontent.com/90133781/161253592-47a37bea-575a-4012-9b5b-3e1335feafa4.png)
