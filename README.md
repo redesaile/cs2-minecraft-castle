@@ -1,13 +1,10 @@
 # Minecraft Castle
-**Game Mode:** AIM, Classic, Deathmatch, Custom, Training
-
-**Weapon:** Any available for purchase
-<br>**Maximum players:** 64 (32 per team)
+A small [Counter-Strike: Global Offensive](https://store.steampowered.com/app/730) map.
 
 ## Get resources
-[`Developer Content`](https://github.com/redesaile/source-developer), `Minecraft Resources (currently unavailable)`
+Third-party repositories were used in the development of the map. Without them, important resources may be missing:
 
-> Porting Minecraft assets to cs:go is currently private, so they can only be obtained by decompiling the release version of the map via **bspsrc**.
+[`Developer Content`](https://github.com/redesaile/source-developer), [`Minecraft Assets`](https://github.com/mcassets)
 
 ## Gallery
 <div align="center">
