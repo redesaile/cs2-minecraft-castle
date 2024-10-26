@@ -25,4 +25,4 @@ Third-party repositories were used in the development of the map. Without them, 
 ## Licence
 Do whatever you want. I don't care.
 
-[MIT](LICENCE) - Copyright (c) 2022 redesaile
+[MIT](LICENSE) - Copyright (c) 2022 redesaile
