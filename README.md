@@ -10,8 +10,8 @@
 > Porting Minecraft assets to cs:go is currently private, so they can only be obtained by decompiling the release version of the map via **bspsrc**.
 
 ## Gallery
-<img src="https://user-images.githubusercontent.com/90133781/161253592-47a37bea-575a-4012-9b5b-3e1335feafa4.png" width="48%"></img>
-<img src="https://user-images.githubusercontent.com/90133781/161253612-9fcdc184-f316-4963-945d-13c1c20338ab.png" width="48%"></img>
+<img src="https://user-images.githubusercontent.com/90133781/161253592-47a37bea-575a-4012-9b5b-3e1335feafa4.png" width="49%"></img>
+<img src="https://user-images.githubusercontent.com/90133781/161253612-9fcdc184-f316-4963-945d-13c1c20338ab.png" width="49%"></img>
 
 <img src="https://user-images.githubusercontent.com/90133781/161253620-28f8b8ee-6e45-4fda-b48f-159d469997f0.png" width="30%"></img>
 <img src="https://user-images.githubusercontent.com/90133781/161253638-5723a582-f5fd-4ab5-bf48-76f86ffe4b20.png" width="30%"></img>
