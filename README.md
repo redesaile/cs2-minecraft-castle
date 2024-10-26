@@ -22,7 +22,7 @@ Third-party repositories were used in the development of the map. Without them, 
 <img src="https://user-images.githubusercontent.com/90133781/161253710-00e70e2e-9c81-44f1-840d-770076624f51.png" width="30%"></img>
 <img src="https://user-images.githubusercontent.com/90133781/161253723-b08d44ac-1b4d-4046-b9a3-1f1db492c2b9.png" width="30%"></img>
 
-## Licence
+## License
 Do whatever you want. I don't care.
 
 [MIT](LICENSE) - Copyright (c) 2022 redesaile
