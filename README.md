@@ -9,7 +9,7 @@ A small [Counter-Strike: Global Offensive](https://store.steampowered.com/app/73
 ## Get resources
 Third-party repositories were used in the development of the map. Without them, important resources may be missing:
 
-[`Developer Content`](https://github.com/redesaile/source-developer), [`Minecraft Assets`](https://github.com/mcassets)
+[`Developer Content`](https://github.com/redesaile/source-developer), [`Minecraft Assets`](https://github.com/mcassets) (unavaliable)
 
 ## Gallery
 <div align=center>
