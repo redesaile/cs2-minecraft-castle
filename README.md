@@ -1,8 +1,9 @@
 # Minecraft Castle
-A small [Counter-Strike: Global Offensive](https://store.steampowered.com/app/730) map.
+A small [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) map.
 
 ## Details
-**Game Mode:** AIM, Classic, Deathmatch, Custom, Training
+**Game scenario:** Aim Training
+<br> **Supported game modes:** Classic, Deathmatch, Training, Custom
 <br> **Weapon limit:** No limit (fully open buy menu)
 <br> **Maximum players:** 64 (32 per team)
 
