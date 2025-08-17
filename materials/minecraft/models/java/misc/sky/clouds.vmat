@@ -4,9 +4,6 @@ Layer0
 {
 	shader "csgo_water.vfx"
 
-	//---- Reflection ----
-	F_REFLECTION_TYPE 1 // Environment Cube Map
-
 	//---- Refraction ----
 	F_DISABLE_REFRACTION 1
 
@@ -20,7 +17,6 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/default/default_color.tga"
 
 	//---- Environment Cube Map ----
 	g_flGlossiness "0.000"
@@ -42,16 +38,12 @@ Layer0
 	//---- Refractions ----
 	g_flWaterDepth "35.000"
 	g_flWaterStart "0.000"
-	g_vWaterFogColor "[0.498039 0.611765 0.803922 1.000000]"
+	g_vWaterFogColor "[0.615686 0.596078 0.627451 1.000000]"
 
 	//---- Specular ----
 	g_flReflectionPower "1.000"
-	g_vReflectionColor "[1.000000 1.000000 1.000000 0.000000]"
+	g_vReflectionColor "[0.992157 0.917647 0.819608 0.000000]"
 	g_vReflectionDir "[0.000 0.000 1.000]"
-
-	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "0" // Wrap
-	g_nTextureAddressModeV "0" // Wrap
 
 	UnusedVariables
 	{
@@ -94,9 +86,6 @@ Layer0
 		{
 		}
 		"Specular"
-		{
-		}
-		"Texture Address Mode"
 		{
 		}
 	}

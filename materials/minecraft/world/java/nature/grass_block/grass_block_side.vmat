@@ -2,10 +2,13 @@
 
 Layer0
 {
-	shader "csgo_simple.vfx"
+	shader "csgo_complex.vfx"
+
+	//---- Per-Instance Tint Mask ----
+	F_TINT_MASK 1
 
 	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion ""
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -17,7 +20,8 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/minecraft/world/java/building/stone_bricks_color.png"
+	TextureColor "materials/minecraft/world/java/nature/grass_block/grass_block_side_color.png"
+	TextureTintMask "materials/minecraft/world/java/nature/grass_block/grass_block_side_mask.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -27,7 +31,7 @@ Layer0
 	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Normal Map ----
-	TextureNormal ""
+	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
@@ -37,7 +41,7 @@ Layer0
 	{
 		WorldMappingWidth "40"
 		WorldMappingHeight "40"
-		PhysicsSurfaceProperties "concrete"
+		PhysicsSurfaceProperties "dirt"
 	}
 
 	UnusedVariables
