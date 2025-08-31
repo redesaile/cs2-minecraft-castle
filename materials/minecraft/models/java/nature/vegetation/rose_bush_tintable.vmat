@@ -7,6 +7,9 @@ Layer0
 	//---- PBR ----
 	F_TRANSMISSIVE_BACKFACE_NDOTL 1
 
+	//---- Per-Instance Tint Mask ----
+	F_TINT_MASK 1
+
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
@@ -25,6 +28,7 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureColor "ref://materials/minecraft/world/java/nature/vegetation/rose_bush_tintable.vmat"
+	TextureTintMask "ref://materials\minecraft\world\java\nature\vegetation\rose_bush_tintable.vmat"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -94,5 +98,48 @@ Layer0
 		"TextureDetailMask" ""
 		"TextureNormalDetail" ""
 		"g_flOcclusionCullingBoundsScale" "1"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+			"Color Correction" 0
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+			"Alpha Boost Mask" 0
+			"Grazing Angle Mask" 0
+		}
+		"Transmission"
+		{
+		}
+		"Vertex Animation"
+		{
+			"Sway (Red Channel)" 0
+			"Flutter (Blue Channel)" 0
+		}
+		"Vertex Color"
+		{
+			"Ambient Occlusion (Alpha Channel)" 0
+			"Height Gradient (Red Channel)" 0
+		}
 	}
 }
