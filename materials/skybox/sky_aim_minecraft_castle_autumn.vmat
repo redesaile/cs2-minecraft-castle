@@ -7,5 +7,13 @@ Layer0
 	//---- Texture ----
 	g_flBrightnessExposureBias "0.000"
 	g_flRenderOnlyExposureBias "0.000"
-	SkyTexture "materials/skybox/sky_aim_minecraft_castle_day_color.png"
+	SkyTexture "materials/skybox/sky_aim_minecraft_castle_autumn_color.png"
+
+
+	VariableState
+	{
+		"Texture"
+		{
+		}
+	}
 }
