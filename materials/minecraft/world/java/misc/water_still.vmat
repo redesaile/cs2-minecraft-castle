@@ -27,7 +27,7 @@ Layer0
 
 	//---- Lighting ----
 	g_flMetalness "0.000"
-	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
+	TextureRoughness "[0.784314 0.784314 0.784314 0.000000]"
 
 	//---- Normal Map ----
 	TextureNormal "materials/default/default_normal.tga"
