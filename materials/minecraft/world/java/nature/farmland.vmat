@@ -2,7 +2,10 @@
 
 Layer0
 {
-	shader "csgo_simple.vfx"
+	shader "csgo_complex.vfx"
+
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 2 // Overlay
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
@@ -18,6 +21,15 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	TextureColor "materials/minecraft/world/java/nature/farmland_color.png"
+
+	//---- Detail Texture ----
+	g_flDetailBlendFactor "0.070"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[0.010 0.010]"
+	TextureDetail "materials/minecraft/common/grass_clouds_detail.jpg"
+	TextureDetailMask "materials/default/default_detailmask.tga"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -48,14 +60,7 @@ Layer0
 		"g_nNumAnimationCells" "1"
 		"g_vAnimationGrid" "[1 1]"
 		"g_bUseSecondaryUvForAmbientOcclusion" "1"
-		"TextureDetail" ""
-		"g_flDetailBlendFactor" "1"
-		"g_flDetailBlendToFull" "0"
 		"g_flDetailNormalStrength" "1"
-		"g_flDetailTexCoordRotation" "0"
-		"g_vDetailTexCoordOffset" "[0.000 0.000]"
-		"g_vDetailTexCoordScale" "[1.000 1.000]"
-		"TextureDetailMask" ""
 		"TextureNormalDetail" ""
 		"g_flOcclusionCullingBoundsScale" "1"
 	}
@@ -67,6 +72,9 @@ Layer0
 		{
 		}
 		"Color"
+		{
+		}
+		"Detail Texture"
 		{
 		}
 		"Fog"
