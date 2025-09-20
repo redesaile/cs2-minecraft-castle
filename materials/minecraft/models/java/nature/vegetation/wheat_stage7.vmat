@@ -24,7 +24,7 @@ Layer0
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	g_vTextureColorCorrectionTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "ref://materials/minecraft/world/java/nature/vegetation/wheat_stage7.vmat"
+	TextureColor "materials/minecraft/world/java/nature/vegetation/wheat_stage7_color.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -32,7 +32,7 @@ Layer0
 	//---- Lighting ----
 	g_fTextureRoughnessBrightness "1.000"
 	g_fTextureRoughnessContrast "1.000"
-	TextureRoughness "ref://materials/minecraft/world/java/nature/vegetation/wheat_stage7.vmat"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Normal Map ----
 	g_fTextureNormalContrast "1.000"
@@ -47,11 +47,11 @@ Layer0
 	g_flAlphaBoostStrength "3.000"
 	g_flAlphaTestReference "0.500"
 	g_flGrazingAngleMask "0.000"
-	TextureTranslucency "ref://materials/minecraft/world/java/nature/vegetation/wheat_stage7.vmat"
+	TextureTranslucency "materials/minecraft/world/java/nature/vegetation/wheat_stage7_trans.png"
 
 	//---- Transmission ----
 	g_bApplyColorCorrectionToTransmissiveColor "0"
-	TextureTransmissiveColor "ref://materials/minecraft/world/java/nature/vegetation/wheat_stage7.vmat"
+	TextureTransmissiveColor "materials/minecraft/world/java/nature/vegetation/wheat_stage7_color.png"
 
 	//---- Vertex Animation ----
 	g_flFlutterAmount "0.250"

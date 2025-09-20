@@ -4,6 +4,9 @@ Layer0
 {
 	shader "csgo_complex.vfx"
 
+	//---- Animation ----
+	F_TEXTURE_ANIMATION 1
+
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
@@ -27,23 +30,40 @@ Layer0
 
 	//---- Lighting ----
 	g_flMetalness "0.000"
-	TextureRoughness "[0.784314 0.784314 0.784314 0.000000]"
+	TextureRoughness "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Normal Map ----
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "0" // Wrap
-	g_nTextureAddressModeV "0" // Wrap
+	g_nTextureAddressModeU "2" // Clamp
+	g_nTextureAddressModeV "2" // Clamp
+
+	//---- Texture Animation ----
+	g_flAnimationFrame "0.000"
+	g_flAnimationTimeOffset "0.000"
+	g_flAnimationTimePerFrame "0.100"
+	g_nNumAnimationCells "32"
+	g_vAnimationGrid "[4 8]"
 
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
-	TextureTranslucency "[0.669000 0.669000 0.669000 0.000000]"
+	TextureTranslucency "[0.710000 0.710000 0.710000 0.000000]"
 
 	SystemAttributes
 	{
 		WorldMappingWidth "40"
 		WorldMappingHeight "40"
+	}
+
+	UnusedVariables
+	{
+		"g_flSelfIllumAlbedoFactor" "1"
+		"g_flSelfIllumBrightness" "0"
+		"g_flSelfIllumScale" "1"
+		"g_vSelfIllumScrollSpeed" "[0.000 0.000]"
+		"g_vSelfIllumTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureSelfIllumMask" "[1.000000 1.000000 1.000000 0.000000]"
 	}
 
 
@@ -67,6 +87,9 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
+		{
+		}
+		"Texture Animation"
 		{
 		}
 		"Translucent"

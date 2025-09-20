@@ -11,7 +11,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models\\props\\aim_minecraft_castle\\fbx\\mesh\\spruce_1_leaves.fbx"
+						filename = "models\\props\\aim_minecraft_castle\\spruce_1_leaves.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{

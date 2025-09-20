@@ -10,9 +10,6 @@ Layer0
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
-	//---- Vertex Animation ----
-	F_VERTEX_ANIMATION 1 // Simple
-
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion ""
 
@@ -53,16 +50,6 @@ Layer0
 	g_bApplyColorCorrectionToTransmissiveColor "0"
 	TextureTransmissiveColor "ref://materials/minecraft/world/java/nature/vegetation/vine.vmat"
 
-	//---- Vertex Animation ----
-	g_flFlutterAmount "0.250"
-	g_flFlutterFalloff "1.000"
-	g_flFlutterNoiseScale "1.000"
-	g_flFlutterSpeed "1.000"
-	g_flSwayAmount "0.125"
-	g_flSwayFalloff "1.000"
-	g_flSwayNoiseScale "1.000"
-	g_flSwaySpeed "1.000"
-
 	//---- Vertex Color ----
 	g_flHeightGradientAmount "0.000"
 	g_flHeightGradientPower "1.000"
@@ -79,44 +66,5 @@ Layer0
 		WorldMappingWidth "40"
 		WorldMappingHeight "40"
 		PhysicsSurfaceProperties "grass"
-	}
-
-	UnusedVariables
-	{
-		"g_flAnimationFrame" "0"
-		"g_flAnimationTimeOffset" "0"
-		"g_flAnimationTimePerFrame" "0.1"
-		"g_nNumAnimationCells" "1"
-		"g_vAnimationGrid" "[1 1]"
-		"g_bUseSecondaryUvForAmbientOcclusion" "1"
-		"TextureDetail" ""
-		"g_flDetailBlendFactor" "1"
-		"g_flDetailBlendToFull" "0"
-		"g_flDetailNormalStrength" "1"
-		"g_flDetailTexCoordRotation" "0"
-		"g_vDetailTexCoordOffset" "[0.000 0.000]"
-		"g_vDetailTexCoordScale" "[1.000 1.000]"
-		"TextureDetailMask" ""
-		"TextureNormalDetail" ""
-		"g_flOcclusionCullingBoundsScale" "1"
-		"g_bBranchMotionPerpendicular" "1"
-		"g_bFrondTipUseEnvWind" "0"
-		"g_bSmootherNoiseBranchAndTrunk" "1"
-		"g_flBranchAnimSpeed" "1"
-		"g_flBranchDeflection" "0"
-		"g_flBranchDeflectionEnd" "150"
-		"g_flBranchDeflectionStart" "0"
-		"g_flBranchNoiseLevel" "0.5"
-		"g_flFrondTipAnimSpeed" "1"
-		"g_flFrondTipMaskFalloff" "1"
-		"g_flFrondTipSpatialIncoherence" "1"
-		"g_flFrondTipStrength" "2"
-		"g_flTrunkAnimSpeed" "1"
-		"g_flTrunkDeflection" "0"
-		"g_flTrunkDeflectionEnd" "300"
-		"g_flTrunkDeflectionStart" "0"
-		"g_flTrunkNoiseLevel" "0.5"
-		"g_vNoiseUvScale" "[1.000 1.000 1.000]"
-		"g_vNoiseUvSpeed" "[0.250 0.250 0.250]"
 	}
 }

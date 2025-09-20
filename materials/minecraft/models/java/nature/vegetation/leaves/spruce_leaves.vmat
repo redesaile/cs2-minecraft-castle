@@ -44,7 +44,7 @@ Layer0
 
 	//---- Translucent ----
 	g_flAlphaBoostDistance "20000.000"
-	g_flAlphaBoostStrength "2.000"
+	g_flAlphaBoostStrength "3.000"
 	g_flAlphaTestReference "0.500"
 	g_flGrazingAngleMask "0.000"
 	TextureTranslucency "ref://materials/minecraft/world/java/nature/vegetation/leaves/spruce_leaves.vmat"
@@ -58,7 +58,7 @@ Layer0
 	g_flFlutterFalloff "1.000"
 	g_flFlutterNoiseScale "1.000"
 	g_flFlutterSpeed "1.000"
-	g_flSwayAmount "0.071"
+	g_flSwayAmount "0.070"
 	g_flSwayFalloff "1.000"
 	g_flSwayNoiseScale "1.000"
 	g_flSwaySpeed "1.000"
