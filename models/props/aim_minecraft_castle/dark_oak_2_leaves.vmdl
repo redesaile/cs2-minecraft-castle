@@ -46,7 +46,7 @@
 						[
 							{
 								from = "pale_oak_leaves.vmat"
-								to = "materials/minecraft/models/java/nature/vegetation/leaves/dark_oak_leaves.vmat"
+								to = "materials/minecraft/world/java/nature/vegetation/leaves/dark_oak_leaves.vmat"
 							},
 						]
 						use_global_default = false

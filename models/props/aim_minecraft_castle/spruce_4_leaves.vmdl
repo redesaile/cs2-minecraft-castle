@@ -11,7 +11,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models\\props\\aim_minecraft_castle\\spruce_4_leaves.fbx"
+						filename = "models\\props\\aim_minecraft_castle\\spruce_4_leaves_lod0.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -21,9 +21,42 @@
 					},
 				]
 			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.3937
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "leaves.vmat"
+								to = "materials/minecraft/models/java/nature/vegetation/leaves/spruce_leaves.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
 		anim_graph_name = ""
 		document_sub_type = "ModelDocSubType_None"
 	}

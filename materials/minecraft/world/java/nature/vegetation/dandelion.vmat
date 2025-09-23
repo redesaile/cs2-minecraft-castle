@@ -36,8 +36,8 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Texture Address Mode ----
-	g_nTextureAddressModeU "0"
-	g_nTextureAddressModeV "0"
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
 
 	//---- Translucent ----
 	g_flAlphaBoostDistance "20000.000"
@@ -91,14 +91,14 @@ Layer0
 		}
 		"Color"
 		{
-			"Color Correction" "0"
+			"Color Correction" 0
 		}
 		"Fog"
 		{
 		}
 		"Lighting"
 		{
-			"Roughness" "0"
+			"Roughness" 0
 		}
 		"Normal Map"
 		{
@@ -108,16 +108,16 @@ Layer0
 		}
 		"Translucent"
 		{
-			"Alpha Boost Mask" "0"
-			"Grazing Angle Mask" "0"
+			"Alpha Boost Mask" 0
+			"Grazing Angle Mask" 0
 		}
 		"Transmission"
 		{
 		}
 		"Vertex Color"
 		{
-			"Ambient Occlusion (Alpha Channel)" "0"
-			"Height Gradient (Red Channel)" "0"
+			"Ambient Occlusion (Alpha Channel)" 0
+			"Height Gradient (Red Channel)" 0
 		}
 	}
 }

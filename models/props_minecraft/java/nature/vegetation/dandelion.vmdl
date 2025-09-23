@@ -36,6 +36,17 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "tintable"
+						remaps = 
+						[
+							{
+								from = "materials/minecraft/models/java/nature/vegetation/dandelion.vmat"
+								to = "materials/minecraft/models/java/nature/vegetation/dandelion_tintable.vmat"
+							},
+						]
+					},
 				]
 			},
 			{

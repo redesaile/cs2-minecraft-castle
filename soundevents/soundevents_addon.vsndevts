@@ -1,0 +1,126 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	minecraft.lava = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Minecraft"
+		vsnd_files_track_01 = "sounds/minecraft/java/liquid/lava.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 1000.0, 0.0 ]
+		]
+	}
+
+	minecraft.lavapop = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Minecraft"
+		vsnd_files_track_01 = "sounds/minecraft/java/liquid/lavapop.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 1000.0, 0.0 ]
+		]
+	}
+
+	aim_minecraft_castle.outdoors = 
+  	{
+   		type = "csgo_mega"
+		set_child_position = false
+   		enable_child_events = true
+		restrict_source_reverb = true
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_21_outsideStreet"
+		override_dsp_preset = false
+		distance_effect_mix = 0.0
+		soundevent_01 = 
+		[
+			"aim_minecraft_dungeon.outdoors.wind",
+			"aim_minecraft_dungeon.outdoors.wind_sand",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 2.0, 0.0 ]
+		]
+		time_volume_mapping_curve = 
+		[
+			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
+			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
+		]
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 1.0 ]
+		]
+	}
+
+	aim_minecraft_castle.outdoors.wind = 
+	{
+		type = "csgo_mega"
+		volume = 0.03
+		set_child_position = false
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_effect_mix = 0.0
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 1.0 ]
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 1.0 ]
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 2.0, 0.0 ]
+		]
+		time_volume_mapping_curve = 
+		[
+			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
+			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
+		]
+		vsnd_duration = 7.148299
+	}
+	
+	aim_minecraft_castle.outdoors.wind_sand = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.800000
+		pitch_random_min = -0.06
+		pitch_random_max = 0.06
+		set_child_position = false
+		distance_effect_mix = 0.0
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 1.0 ]
+		]
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 1.0 ]
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 2.0, 1.0 ]
+		]
+		time_volume_mapping_curve = 
+		[
+			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
+			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
+		]
+		vsnd_duration = 70.579208
+	}
+}
