@@ -1,8 +1,0 @@
-"settings"
-{
-	"clampu" "1"
-	"clampv" "1"
-	"output_format" "IMAGE_FORMAT_RGBA8888"
-	"nomip" "1"
-
-}
