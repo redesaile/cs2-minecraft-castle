@@ -27,27 +27,20 @@
 	aim_minecraft_castle.outdoors = 
   	{
    		type = "csgo_mega"
-		set_child_position = false
-   		enable_child_events = true
-		restrict_source_reverb = true
-		use_time_volume_mapping_curve = true
-		dsp_preset = "reverb_21_outsideStreet"
-		override_dsp_preset = false
 		distance_effect_mix = 0.0
+		restrict_source_reverb = true
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = false
+		dsp_preset = "reverb_21_outsideStreet"
 		soundevent_01 = 
 		[
-			"aim_minecraft_dungeon.outdoors.wind",
-			"aim_minecraft_dungeon.outdoors.wind_sand",
+			"aim_minecraft_castle.outdoors.wind",
 		]
 		fadetime_volume_mapping_curve = 
 		[
 			[ 0.0, 1.0 ],
 			[ 2.0, 0.0 ]
-		]
-		time_volume_mapping_curve = 
-		[
-			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
-			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -56,50 +49,38 @@
 		]
 	}
 
-	aim_minecraft_castle.outdoors.wind = 
-	{
-		type = "csgo_mega"
-		volume = 0.03
-		set_child_position = false
-		use_time_volume_mapping_curve = true
-		use_distance_unfiltered_stereo_mapping_curve = true
+	aim_minecraft_castle.outdoors_water_waves = 
+  	{
+   		type = "csgo_mega"
 		distance_effect_mix = 0.0
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
-		distance_volume_mapping_curve = 
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = false
+		dsp_preset = "reverb_21_outsideStreet"
+		soundevent_01 = 
 		[
-			[ 0.0, 1.0 ],
-			[ 300.0, 1.0 ]
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			[ 0.0, 1.0 ],
-			[ 300.0, 1.0 ]
+			"aim_minecraft_castle.outdoors.wind",
+			"aim_minecraft_castle.outdoors.random_water_waves",
+			"aim_minecraft_castle.outdoors.random_birds",
 		]
 		fadetime_volume_mapping_curve = 
 		[
 			[ 0.0, 1.0 ],
 			[ 2.0, 0.0 ]
 		]
-		time_volume_mapping_curve = 
-		[
-			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
-			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
-		]
-		vsnd_duration = 7.148299
 	}
-	
-	aim_minecraft_castle.outdoors.wind_sand = 
+
+	aim_minecraft_castle.outdoors.wind = 
 	{
 		type = "csgo_mega"
-		use_time_volume_mapping_curve = true
-		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.800000
+		volume = 0.8
 		pitch_random_min = -0.06
 		pitch_random_max = 0.06
-		set_child_position = false
 		distance_effect_mix = 0.0
 		restrict_source_reverb = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -114,13 +95,52 @@
 		fadetime_volume_mapping_curve = 
 		[
 			[ 0.0, 1.0 ],
-			[ 2.0, 1.0 ]
+			[ 4.0, 1.0 ]
 		]
-		time_volume_mapping_curve = 
+	}
+
+	aim_minecraft_castle.outdoors.random_water_waves = 
+	{
+		type = "csgo_mega"
+		volume = 0.23
+		position_relative_to_player = true
+		vsnd_files_track_01 =
 		[
-			[ 0.000000, 0.000000, 0.000000, 6.823822, 2.000000, 2.000000 ],
-			[ 0.362857, 1.000000, 0.260146, 0.260146, 2.000000, 3.000000 ]
+			"sounds/minecraft/java/liquid/swim14.vsnd",
+			"sounds/minecraft/java/liquid/swim16.vsnd",
+			"sounds/minecraft/java/mob/turtle/swim1.vsnd",
+			"sounds/minecraft/java/mob/turtle/swim2.vsnd",
+			"sounds/minecraft/java/mob/turtle/swim3.vsnd",
+			"sounds/minecraft/java/mob/turtle/swim4.vsnd",
 		]
-		vsnd_duration = 70.579208
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 0.0 ]
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 4.000000
+		retrigger_interval_max = 7.000000
+	}
+
+	aim_minecraft_castle.outdoors.random_birds = 
+	{
+		type = "csgo_mega"
+		volume = 0.12
+		position_relative_to_player = true
+		vsnd_files_track_01 =
+		[
+			"sounds/ambient/common/animal/bird3.vsnd",
+			"sounds/ambient/common/animal/bird5.vsnd",
+			"sounds/ambient/common/animal/bird16.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			[ 0.0, 1.0 ],
+			[ 300.0, 0.0 ]
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 6.0
+		retrigger_interval_max = 13.0
 	}
 }

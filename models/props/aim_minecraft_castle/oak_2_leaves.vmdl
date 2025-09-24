@@ -54,6 +54,38 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "oak_2_leaves_physics"
+						parent_bone = ""
+						surface_prop = "grass"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props/aim_minecraft_castle/oak_2_leaves_physics.fbx"
+						import_scale = 1.0
+						simplification_params = 
+						{
+							qemError = 0.0
+							maxMeshVertices = 0
+							small_element_threshold = 0.0
+							thin_element_threshold = 0.0
+						}
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
