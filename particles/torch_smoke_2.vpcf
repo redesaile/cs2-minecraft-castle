@@ -69,6 +69,8 @@
 					m_vDomainMaxs = [ 0.0, 0.0 ]
 				}
 			}
+			m_bInitFromKilledParentParticles = true
+			m_nEventType = "PARTICLE_EVENT_TYPE_MASK_SPAWNED"
 		},
 	]
 	m_Initializers = 

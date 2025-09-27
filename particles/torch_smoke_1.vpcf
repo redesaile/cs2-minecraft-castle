@@ -70,6 +70,7 @@
 				}
 			}
 			m_nEventType = "PARTICLE_EVENT_TYPE_MASK_SPAWNED"
+			m_bInitFromKilledParentParticles = true
 		},
 	]
 	m_Initializers = 
