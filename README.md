@@ -1,5 +1,5 @@
 # Minecraft Castle
-A small castle in the middle of a wheat field, designed in the [Minecraft](https://www.minecraft.net) style for [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (outdated, but available in [Commits](https://github.com/redesaile/cs2-minecraft-castle/tree/f075d1f50be08eea8fcc9cc4034e32512ddb6bcb)) and [Counter-Strike 2](https://store.steampowered.com/app/730).
+A small castle in the middle of a wheat field, designed in the [Minecraft](https://www.minecraft.net) style for [Counter-Strike: Global Offensive](https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive) (outdated, but available in [Releases](https://github.com/redesaile/cs2-minecraft-castle/releases/tag/legacy)) and [Counter-Strike 2](https://store.steampowered.com/app/730).
 
 > [!IMPORTANT]
 > 1. **There is a third-party software used here.** To have full compatibility, see [RadGen](https://radargenerator.github.io/).
