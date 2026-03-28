@@ -69,11 +69,6 @@ Layer0
 	g_flVertexAmbientOcclusionAmount "0.000"
 	g_flVertexAmbientOcclusionPower "1.000"
 
-	Attributes
-	{
-		PreviewModel "models/props_minecraft/java/nature/vegetation/grass_lod0.vmdl"
-	}
-
 	SystemAttributes
 	{
 		WorldMappingWidth "40"

@@ -12,7 +12,7 @@
 			m_nTintColorR = 255
 			m_nTintColorG = 140
 			m_nTintColorB = 0
-			m_nStrength = 3
+			m_nStrength = 6
 			m_bPreserveLuminosity = true
 		},
 		{
